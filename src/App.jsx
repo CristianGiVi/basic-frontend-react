@@ -5,12 +5,12 @@ import { HomePage } from "./MainContent/HomePage/HomePage";
 import { Footer } from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 
-import { ShoppingCart } from "./MainContent/Components/ShoppingCart/ShoppingCart";
+import { ShoppingCart } from "./MainContent/ShoppingCart/ShoppingCart";
 
 // Define y exporta el componente principal App
 export default function App() {
   return (
-    <>
+    <div style={{backgroundColor: "#fafafa",  color: "#3d3d3d"}}>
       <Header />
 
       {/* Define las rutas de la aplicación */}
@@ -24,6 +24,6 @@ export default function App() {
       <Footer />
 
 
-    </>
+    </div>
   );
 }

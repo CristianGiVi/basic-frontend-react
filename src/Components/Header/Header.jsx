@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Announcement } from './Components/Announcement'
-import { Navbar } from './Components/Navbar'
+import { HamburguerMenu } from './Components/HamburguerMenu';
 import { useNavigate } from 'react-router-dom';
 
 export const Header = () => {
@@ -15,8 +15,12 @@ export const Header = () => {
       </div>
 
       <div className='row'>
-        <div className="col-1">
-          <Navbar />
+        <div className="col-1" style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}>
+          <HamburguerMenu />
         </div>
 
         <div className="col-9">

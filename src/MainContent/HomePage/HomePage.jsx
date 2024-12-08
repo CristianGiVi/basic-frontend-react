@@ -1,5 +1,5 @@
 
-import { Slider } from "../Components/Slider/Slider"
+import { Slider } from "./Components/Slider/Slider"
 
 export const HomePage =() => {
 

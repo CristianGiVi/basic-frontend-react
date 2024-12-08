@@ -25,7 +25,7 @@ export const ShoppingCart = () => {
 
       <div className="row">
         <div className="col-7" style={{marginLeft:"100px"}}>
-          <ShoppingList />
+          <ShoppingList Products={products}/>
         </div>
         <div className="col-3">
           <ShoppingResume Products={products}/>

@@ -29,22 +29,9 @@ export const Slider = () => {
                 nextEl: '.swiper-button-next', 
                 prevEl: '.swiper-button-prev',
               }}
-            slidesPerView={3}
-            spaceBetween={20}
-            breakpoints={{
-              '@0.00': {
-                slidesPerView: 1,
-                spaceBetween: 25,
-              },
-              '@0.75': {
-                slidesPerView: 2,
-                spaceBetween: 25,
-              },
-              '@1.50': {
-                slidesPerView: 3,
-                spaceBetween: 25,
-              }
-            }}
+            slidesPerView={4}
+            spaceBetween={10}
+
           >
             {products?.map((product) => (
               <SwiperSlide key={product.sku}>

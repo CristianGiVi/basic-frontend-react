@@ -4,6 +4,7 @@ export const ShoppingResume = ({ Products }) => {
 
     const [bill, setBill] = useState(0);
     const [codeDiscount, setCodeDiscount] = useState("");
+    const [nameDiscount, setNameDiscount] = useState("");
     const [haveCodeDiscount, setHaveCodeDiscount] = useState(false);
 
     useEffect(() => {
@@ -21,6 +22,7 @@ export const ShoppingResume = ({ Products }) => {
     const handleCouponApply = () => {
         if (codeDiscount) {
             setHaveCodeDiscount(true);
+            setNameDiscount(codeDiscount);
         }
     };
 
@@ -56,7 +58,7 @@ export const ShoppingResume = ({ Products }) => {
                             </p>
 
                             <div className='d-flex align-items-center'>
-                                <p style={{color:"black", backgroundColor: "#6f6f6f", padding:"10px"}}>{codeDiscount}</p>
+                                <p style={{color:"black", backgroundColor: "#6f6f6f", padding:"10px"}}>{nameDiscount}</p>
                                 <button type="button" class="btn-close" aria-label="Close" onClick={handleCouponDelete} 
                                 style={{marginBottom: "15px"}}></button>
                             </div>

@@ -1,7 +1,15 @@
-export const ShoppingList = () => {
+import { ProductCard } from "./ProductCard";
+
+export const ShoppingList = ({ Products }) => {
   return (
-    <div>
-        <h1>ShoppingList</h1>
+    <div className="container">
+        <div className="list-group">
+            {Products.map((product) => (
+                <ProductCard key={product.sku} Product={product} />
+                
+            ))}
+            
+        </div>
     </div>
-  )
+);
 }

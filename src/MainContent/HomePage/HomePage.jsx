@@ -1,11 +1,9 @@
-import { useState } from 'react'
+
+import { Slider } from "../Components/Slider/Slider"
 
 export const HomePage =() => {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>hola mundo</h1>
-    </>
+      <Slider />
   )
 }

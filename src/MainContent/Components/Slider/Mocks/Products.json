@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Vestido Palermo",
+        "price": 480000,
+        "sku": 1713900915,
+        "image": "malvaonline.com/cdn/shop/files/VESTIDOPALERMO.jpg"
+    },
+    {
+        "name": "Top Venecia",
+        "price": 280000,
+        "sku": 1713899244,
+        "image": "malvaonline.com/cdn/shop/files/TOPVENECIA.jpg"
+    },
+    {
+        "name": "Vestido Mesh",
+        "price": 420000,
+        "sku": 1713965219,
+        "image": "malvaonline.com/cdn/shop/files/VESTIDOMESH.jpg"
+    },
+    {
+        "name": "Body Atic",
+        "price": 300000,
+        "sku": 1726867930,
+        "image": "malvaonline.com/cdn/shop/files/BODYATICPRINT-1.jpg"
+    },
+    {
+        "name": "Top Lein",
+        "price": 360000,
+        "sku": 1727112791,
+        "image": "malvaonline.com/cdn/shop/files/BLUSLEINPRINT-1.jpg"
+    },
+    {
+        "name": "Chaqueta Luni",
+        "price": 480000,
+        "sku": 1726867938,
+        "image": "malvaonline.com/cdn/shop/files/CHAQUELUNIGREY-1.jpg"
+    }
+]

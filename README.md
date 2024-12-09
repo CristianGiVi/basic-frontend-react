@@ -2,9 +2,15 @@
 
 ## Funcionalidades Actuales
 
-- Navegación entre páginas usando React Router.
-- Interfaz de usuario estilizada con React Bootstrap.
-- Deslizadores de contenido utilizando Swiper.
+- Replica de las secciones solicitidas pagina principal de Malva
+- Implementacion del menu de hamburguesa
+- Collapse de las opciones de los menus en el footer
+- Funcionalidades de redireccionamiento en los botones e iconos del header
+- Implementaron del deslizador en la pagina principal usando Swiper.
+- Desarrollo de la página del carrito de compras
+- Visualizacion de productos genericos añadidos al carrito de compras
+- Seccion del resumen de las compras
+- Despliegue del frontend en github pages
 
  ## Tecnologías Utilizadas
 

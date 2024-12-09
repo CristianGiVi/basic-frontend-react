@@ -32,7 +32,7 @@ export const HamburguerMenu = () => {
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" onClick={toggleMenu}></button>
         </div>
 
-        <div className="" onClick={() => navigate("/")} style={{ cursor: "pointer" }}>
+        <div className="" onClick={() => navigate("/prueba-frontend-react/")} style={{ cursor: "pointer" }}>
           <span className="menu-item d-flex justify-content-between align-items-center">
 
             <p className="title-item">Volver a Mujer</p>

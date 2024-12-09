@@ -25,7 +25,7 @@ export const Header = () => {
 
         <div className="col-9">
         <svg width="100" height="70" viewBox="0 0 82 40" fill="none" xmlns="http://www.w3.org/2000/svg"
-                      onClick={() => navigate("/")}
+                      onClick={() => navigate("/prueba-frontend-react/")}
                       style={{ cursor: "pointer" }}>
                   <path d="M9.27925 36.6056H10.2157C11.067 36.6056 11.7055 37.1589 11.7055 38.0528C11.7055 38.8615 11.1521 39.4574 10.3434 39.4574H9.27925V36.6056ZM9.66234 36.7758V39.2872H10.3008C10.8542 39.2872 11.2798 38.819 11.2798 38.0528C11.2798 37.2441 10.8116 36.7758 10.2157 36.7758H9.66234Z" fill="currentColor"></path>
                   <path d="M13.6203 36.6056H15.6208V36.7758H14.0033V37.9251H15.4931V38.0953H14.0033V39.3297H15.6634V39.5H13.6203V36.6056Z" fill="currentColor"></path>
@@ -80,7 +80,7 @@ export const Header = () => {
           </svg>
 
           <svg width="45" height="45" viewBox="0 0 28 30" fill="currentColor" xmlns="http://www.w3.org/2000/svg" 
-            onClick={() => navigate("/shopping-cart")}
+            onClick={() => navigate("/prueba-frontend-react/shopping-cart")}
             style={{ cursor: "pointer" }}>
             <path d="M19.3659 11.65H16.5459V10.8C16.5459 9.26 15.2859 8 13.7459 8C12.2059 8 10.9459 9.26 10.9459 10.8V11.65H8.1259C8.1259 11.65 8.0459 11.68 8.0459 11.73V20.01C8.0459 21.09 8.92591 21.97 10.0059 21.97H17.4659C18.5459 21.97 19.4259 21.09 19.4259 20.01V11.73C19.4259 11.73 19.3959 11.65 19.3459 11.65H19.3659ZM11.4859 10.8C11.4859 9.55 12.4959 8.54 13.7459 8.54C14.9959 8.54 16.0059 9.55 16.0059 10.8V11.65H11.4859V10.8ZM18.8959 20.01C18.8959 20.79 18.2559 21.43 17.4759 21.43H10.0159C9.2359 21.43 8.5959 20.79 8.5959 20.01V12.19H18.8959V20.01Z" fill="currentColor" stroke="currentColor" strokeWidth="0.2" strokeLinecap="round" strokeLinejoin="round"></path>
           </svg>

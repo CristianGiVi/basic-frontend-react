@@ -16,9 +16,9 @@ export default function App() {
       {/* Define las rutas de la aplicación */}
       <Routes>
         {/* Ruta para la página de inicio */}
-        <Route path="/" element={<HomePage />} />
+        <Route path="/prueba-frontend-react/" element={<HomePage />} />
 
-        <Route path="/shopping-cart" element={<ShoppingCart />}></Route>
+        <Route path="/prueba-frontend-react/shopping-cart" element={<ShoppingCart />}></Route>
       </Routes>
 
       <Footer />

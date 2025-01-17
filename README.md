@@ -1,4 +1,3 @@
-# Prueba tecnica frontend React
 
 ## Funcionalidades Actuales
 
